@@ -11,7 +11,7 @@ lint:
 	ruff scripts/ tests/
 
 install:
-	pip install ."[test]"
+	pip install ."[dev]"
 
 compile:
 	brownie compile
